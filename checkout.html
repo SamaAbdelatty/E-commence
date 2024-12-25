@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4488e50a43.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="top-bar">
+
+        <div class="sale">
+            <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!<span>ShopNow</span></p>
+
+            <form>
+                <label for="language"></label>
+                <select name="language" id="language">
+                    <option value="en">English</option>
+                    <option value="fr">Arabic</option>
+                </select>
+            </form>
+
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container p-4">
+            <div class="img-container">
+                <img src="./images/Logo.png" alt="">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class ="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sign-up.html" class="nav-link " href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="search d-flex">
+                <div class="input-container flex-fill">
+                    <input class="form-control" type="text" placeholder="What are you looking for?">
+
+                </div>
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <a href="cart.html">
+                        <div class="icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+                    <a href="profile.html">
+                        <div class="icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+    <div class="checkout">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Account / My Account / Product / View Cart / <span>CheckOut</span> </p>
+                    <h4>Billing Details</h4>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-lg-6 ">
+                    <div class="form">
+                        <div class="form-group">
+                            <label for="firstname">First Name
+                                <span> *</span>
+                            </label>
+                            <div class="input">
+                                <input class="form-input" input type="text" id="firstname">
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="companyname">Company Name </label>
+                            <div class="input">
+                                <input class="form-input" input type="text" id="companyname ">
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="streetAddress">Street Address
+                                <span> *</span>
+                            </label>
+                            <input class="form-input" input type="text" id="streetAddress">
+                        </div>
+                       
+                        <div class="form-group">
+                            <label for="city">Town/City
+                                <span> *</span>
+                
+                            </label>
+                            <div class="input">
+                                <input class="form-input" input type="text" id="city">
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="phonenumber">Phone Number
+                                <span> *</span>
+                
+                            </label>
+                            <div class="input">
+                                <input class="form-input" input type="text" id="phonenumber">
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address
+                                <span> *</span>
+                
+                            </label>
+                            <div class="input">
+                                <input class="form-input" input type="email" id="email">
+                            </div>
+
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Save this information for faster check-out next time
+                            </label>
+                          </div>
+
+                        
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="products">
+                        <div class="product">
+                            <div class="img-container">
+                                <img src="./images/img-1.png" alt="">
+                                <span>LCD Monitor</span>
+                            </div>
+                            <span>$650</span>
+                        </div>
+                    </div>
+                    <div class="products">
+                        <div class="product">
+                            <div class="img-container">
+                                <img src="./images/img-3.png" alt="">
+                                <span>H1 Gamepad</span>
+                            </div>
+                            <span>$1100</span>
+                        </div>
+                    </div>
+                    <div class="total-price">
+                        <div class="price d-flex justify-content-between position-relative mb-4 py-2">
+                            <span>Subtotal:</span>
+                            <span>$1750</span>
+                        </div>
+                        <div class="price d-flex justify-content-between position-relative mb-4 py-2">
+                            <span>Shipping:</span>
+                            <span>Free </span>
+                        </div>
+                        <div class="price d-flex justify-content-between position-relative mb-4 py-2">
+                            <span>Total:</span>
+                            <span>$1750</span>
+                        </div>
+                    </div>
+                    <div class="payment">
+                        <div class="bank d-flex justify-content-between mb-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Bank
+                                </label>
+                              </div>
+                              <div class="visa d-flex">
+                                <div class="img-container">
+                                    <img src="./images/Bkash.png" alt="">
+                                    
+                                </div>
+                                <div class="img-container">
+                                    <img src="./images/Visa.png" alt="">
+
+                                </div>
+                                <div class="img-container">
+                                    <img src="./images/Mastercard.png" alt="">
+
+                                </div>
+                                <div class="img-container">
+                                    <img src="./images/Nagad.png" alt="">
+
+                                </div>
+                                
+                              </div>
+                        </div>
+                       
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                Cash on delivery
+                            </label>
+                          </div>
+                          <div class="coupon d-flex justify-content-around mt-3">
+                            <input class="code" type="text" name="coupon" placeholder="Coupon Code">
+                            <div class="apply-coupon">
+                                <button class="update-btn ">Apply Coupon</button>
+                            </div>
+                        </div>
+                        <div class="place-order mt-4">
+                            <button class="total-btn">Place Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
